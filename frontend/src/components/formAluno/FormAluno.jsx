@@ -1,4 +1,3 @@
-// src/components/formAluno/FormAluno.jsx
 import React from "react";
 
 function FormAluno({ modoEdicao, id, nome, dataNascimento, email, telefone, setId, setNome, setDataNascimento, setEmail, setTelefone, cadastrar, atualizar, limparFormulario }) {
@@ -8,7 +7,6 @@ function FormAluno({ modoEdicao, id, nome, dataNascimento, email, telefone, setI
         <h3>{modoEdicao ? "Editar Aluno" : "Novo Aluno"}</h3>
       </div>
 
-      {/* Campo oculto apenas para manter o estado do ID se necessário, ou remova se não usar */}
       {!modoEdicao && <input type='number' className='input-hidden' placeholder='ID' value={id} onChange={(e) => setId(e.target.value)} />}
 
       <div className='form-grid'>
