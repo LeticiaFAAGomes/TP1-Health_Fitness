@@ -1,6 +1,6 @@
 # 🏋️ HealthFitness
 
-### Trabalho Prático 1 — Arquitetura de Software
+### Teste de Performance 1
 
 #### Monólito com Spring Boot + React
 
@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
-Aplicação monolítica para gerenciamento de academia, desenvolvida com **Spring Boot** no back-end e **React** no front-end, seguindo arquitetura em camadas e princípios SOLID. A aplicação foi desenvolvida como primeira entrega do TP da disciplina de **Desenvolvimento de Softwares Escaláveis**.
+Aplicação monolítica para sistema de academia, desenvolvida com **Spring Boot** no back-end e **React** no front-end, seguindo arquitetura em camadas e princípios SOLID. A aplicação foi desenvolvida como primeira entrega do TP da disciplina de **Desenvolvimento de Softwares Escaláveis**.
 
 ---
 
@@ -62,13 +62,13 @@ A aplicação segue o padrão de **arquitetura em camadas**, separando clarament
 
 #### Tecnologias
 
-| Java  
-| Spring Boot  
-| Spring MVC  
-| Spring Data JPA
-| H2 Database  
-| Maven  
-| Lombok
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- H2 Database
+- Maven
+- Lombok
 
 ## 📁 Estrutura de Pastas
 
@@ -83,7 +83,7 @@ TP1-Health_Fitness/
 │   │   │   │   │   ├── AlunoController.java
 │   │   │   │   ├── services/          # Camada de serviço (negócio)
 │   │   │   │   │   ├── AlunoService.java
-│   │   │   │   ├── repositories/       # Camada de repositório (dados)
+│   │   │   │   ├── repository/       # Camada de repositório (dados)
 │   │   │   │   │   ├── AlunoRepository.java
 │   │   │   │   ├── models/            # Entidades do domínio
 │   │   │   │   │   ├── Aluno.java
@@ -104,13 +104,6 @@ TP1-Health_Fitness/
 ---
 
 ## 🚀 Como Executar
-
-### Pré-requisitos
-
-- [Git](https://git-scm.com/)
-- [Java JDK 17+](https://www.oracle.com/java/technologies/downloads/)
-- [Maven 3.x](https://maven.apache.org/)
-- [Node.js 18+](https://nodejs.org/)
 
 ### 1. Clone o repositório
 
